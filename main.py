@@ -5,6 +5,7 @@ from db.models import Race, Skill, Player, Guild
 
 def main() -> None:
     pass
+    pass
 
 
 if __name__ == "__main__":
