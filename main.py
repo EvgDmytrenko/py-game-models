@@ -7,6 +7,7 @@ def main() -> None:
     pass
     pass
     pass
+    pass
 
 
 if __name__ == "__main__":
