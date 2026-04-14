@@ -1,13 +1,18 @@
 import init_django_orm  # noqa: F401
+import json
 
-#from db.models import Race, Skill, Player, Guild
+from db.models import Race, Skill, Player, Guild
+
 
 
 def main() -> None:
-    pass
-    pass
-    pass
-    pass
+    with open("players.json", "r") as file:
+        data = json.load(file)
+
+
+
+
+
 
 
 if __name__ == "__main__":
