@@ -33,7 +33,6 @@ Model.objects.create(
 ```
 
 **Bad example, avoid using it:**
-
 ```python
 Model.objects.create(
     field=None
@@ -42,10 +41,9 @@ Model.objects.create(
 )
 ```
 
-## 5. Use .get() method to check whether key defined in dictionary
+## 5. Use `.get()` method to check whether key defined in dictionary
 
 Good example (`.get()` method returns `None` by default):
-
 ```python
 guild = data.get("guild")
 if guild:
